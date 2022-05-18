@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;;
+}
+
+body {
+  margin: 50px;
+  font-family: sans-serif;
+}
+
+header .img {
+  margin-left: 20;
+  margin-top: 20;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 750px;
+  margin-right: 100px;
+  width: 500px;
+}
+
+ #hiring {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.main {
+  display: flex;
+  font-weight: 500;
+  width: 500px;
+  margin-left: 50px;
+  flex-direction: column;
+  margin-top: 250px;
+  font-size: 30px;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 500px;
+  margin-bottom: 30px;
+}
+
+#sixth {
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 24px;
+}
+
+.text {
+  color: grey;
+  font-size: 16px;
+}
+
+.resize {
+  width: 600px;
+  height: 700px;
+  margin-right: 50px;
+  margin-top: -450px;
+}
+
+.middle {
+  font-size: 16px;
+  color: blue;
+}
+
+.icon {
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.second {
+  margin-left: 40px;
+  margin-top: -250px;
+  width: 550px;
+}
+
+.about {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  margin-left: 650px;
+  margin-top: 200px;
+}
+
+.button {
+  display: flex;;
+  margin-left: 650px;
+  margin-top: -30px;
+}
+
+
+.more {
+  color: blue;
+  font-weight: bold;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+#company {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+#blog {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+#all {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.help {
+  color: black;
+  font-weight: bold;
+  font-size: 14px !important;
+}
+
+footer {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+}
